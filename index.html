@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rajat Singh — Portfolio</title>
+  <meta name="description" content="Rajat Singh — Python Developer, AI Enthusiast. Portfolio & Resume." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Floating blobs for galaxy + glassmorphism vibe -->
+  <div class="blob b1"></div>
+  <div class="blob b2"></div>
+
+  <div class="container">
+    <!-- HEADER -->
+    <header>
+      <div class="brand">
+        <div class="avatar">
+          <!-- Replace with your real image later -->
+          <span>RS</span>
+        </div>
+        <div>
+          <h1>Rajat Singh</h1>
+          <p>Python Developer • AI Enthusiast • CS Student</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="theme-toggle" class="btn" aria-label="Toggle theme">
+          🌙 <span class="btn-label">Dark</span>
+        </button>
+        <a href="resume.pdf" class="btn primary" download>
+          ⬇️ <span class="btn-label">Resume</span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section id="hero" class="card hero fade-in">
+        <div class="hero-text">
+          <h2>Hi, I’m Rajat — I build intelligent apps & clean experiences.</h2>
+          <p>
+            I’m a Computer Science student exploring Python, AI, and modern web development.
+            I enjoy turning ideas into polished, usable projects with a focus on clarity and detail.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn">
+              🚀 View Projects
+            </a>
+            <a href="mailto:your@email.com" class="btn ghost">
+              ✉️ Contact Me
+            </a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-orbit">
+            <div class="hero-core"></div>
+            <div class="hero-orb orb-1"></div>
+            <div class="hero-orb orb-2"></div>
+          </div>
+          <p class="hero-caption">Galaxy-themed dev in progress ⚡</p>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="grid-two fade-in">
+        <article class="card">
+          <h3>About me</h3>
+          <p>
+            I’m focused on learning advanced Python, OOP, and building projects that combine
+            APIs, clean UI, and good architecture. One of my current ideas is
+            <strong>CineLog</strong> — a movie tracker app with Firebase + TMDb.
+          </p>
+          <div class="facts">
+            <div>
+              <span class="fact-label">Location</span>
+              <span class="fact-value">India</span>
+            </div>
+            <div>
+              <span class="fact-label">Education</span>
+              <span class="fact-value">B.Tech — Computer Science</span>
+            </div>
+            <div>
+              <span class="fact-label">Interest Areas</span>
+              <span class="fact-value">Python, AI, Web Dev, Clean UI</span>
+            </div>
+            <div>
+              <span class="fact-label">Goal</span>
+              <span class="fact-value">High-paying product-based MNC</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- SKILLS -->
+        <aside class="card">
+          <h3>Skills & Stack</h3>
+          <div class="chips">
+            <span class="chip">Python</span>
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">Firebase</span>
+            <span class="chip">TMDb API</span>
+            <span class="chip">Git & GitHub</span>
+            <span class="chip">Problem Solving</span>
+          </div>
+
+          <div class="skill-bars">
+            <div class="skill">
+              <span>Python</span>
+              <div class="bar"><div style="width: 80%;"></div></div>
+            </div>
+            <div class="skill">
+              <span>Web Basics (HTML/CSS/JS)</span>
+              <div class="bar"><div style="width: 65%;"></div></div>
+            </div>
+            <div class="skill">
+              <span>DSA & OOP (Learning)</span>
+              <div class="bar"><div style="width: 55%;"></div></div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- PROJECTS (GitHub) -->
+      <section id="projects" class="fade-in">
+        <div class="section-header">
+          <h3>Recent GitHub Projects</h3>
+          <p>
+            Fetched live from <a href="https://github.com/ShoSama03" target="_blank" rel="noreferrer">@ShoSama03</a>.
+          </p>
+        </div>
+        <div id="repos" class="grid-cards">
+          <div class="card placeholder">
+            Loading your GitHub repositories...
+          </div>
+        </div>
+      </section>
+
+      <!-- RESUME / TIMELINE BLOCK -->
+      <section id="resume" class="grid-two fade-in">
+        <article class="card">
+          <h3>Quick timeline</h3>
+          <ul class="timeline">
+            <li>
+              <span class="time-dot"></span>
+              <div>
+                <h4>B.Tech in Computer Science</h4>
+                <p>ABES Engineering College • AKTU</p>
+                <span class="time-meta">Ongoing</span>
+              </div>
+            </li>
+            <li>
+              <span class="time-dot"></span>
+              <div>
+                <h4>Python & DSA Learning</h4>
+                <p>Focused on mastering Python, OOP, and problem solving.</p>
+                <span class="time-meta">Current</span>
+              </div>
+            </li>
+            <li>
+              <span class="time-dot"></span>
+              <div>
+                <h4>Future: AI / Product-based MNC</h4>
+                <p>Aiming for a strong developer role with real-world impact.</p>
+                <span class="time-meta">Goal</span>
+              </div>
+            </li>
+          </ul>
+        </article>
+
+        <aside class="card resume-cta">
+          <h3>Download Resume</h3>
+          <p>
+            Want a quick snapshot of my skills, education, and projects?
+            Grab the PDF version of my resume.
+          </p>
+          <a href="resume.pdf" class="btn primary wide" download>
+            ⬇️ Download Resume (PDF)
+          </a>
+          <p class="hint">
+            Put your <code>resume.pdf</code> in the same folder as this website.
+          </p>
+        </aside>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="card fade-in">
+        <h3>Let’s connect</h3>
+        <p>
+          I’m always open to suggestions, collaboration ideas, or just talking about tech,
+          AI, Genshin, or movies.
+        </p>
+        <div class="contact-grid">
+          <a href="mailto:your@email.com" class="contact-link">
+            <span>✉️ Email</span>
+            <span class="small">your@email.com</span>
+          </a>
+          <a href="https://github.com/ShoSama03" target="_blank" rel="noreferrer" class="contact-link">
+            <span>🐙 GitHub</span>
+            <span class="small">@ShoSama03</span>
+          </a>
+          <a href="#" class="contact-link">
+            <span>💼 LinkedIn</span>
+            <span class="small">Add your profile</span>
+          </a>
+          <a href="#" class="contact-link">
+            <span>📸 Instagram</span>
+            <span class="small">Optional, if you want</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <span>© <span id="year"></span> Rajat Singh</span>
+      <span class="footer-right">Built with HTML, CSS & JavaScript.</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
